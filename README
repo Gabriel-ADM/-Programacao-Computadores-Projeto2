@@ -1,33 +1,35 @@
-# Este pequeno projeto tem como objetivo Gerar possiveis vitorias para jogador O com base em um tabuleiro
+<h1>Este pequeno projeto tem como objetivo Gerar possiveis vitorias para jogador O com base em um tabuleiro</h1>
 Com base nesses requisitos: https://danielsaad.com/programacao-de-computadores-1/assets/trabalhos/jogo-da-velha.pdf
 
-# Usando Projeto 3 - Jogo da Velha
+<h2>Usando Projeto 3 - Jogo da Velha</h2>
 Para usar Projeto 3 - Jogo da Velha, siga estas etapas:
 
-## Primeiramente é necessário ter a ferramenta Make instalada em sua maquina
+<h2>Primeiramente é necessário ter a ferramenta Make instalada em sua maquina</h2>
 Para mais informações sobre Make, acesse: https://www.gnu.org/software/make
 
-## Segundamente é necessário acesso ao diretório em que o projeto está baixado via terminal
+<h2> Segundamente é necessário acesso ao diretório em que o projeto está baixado via terminal</h2>
 
-## Por último basta compilar os principais módulos excutando o arquivo "Make", e chamando o projeto com o comando ".\main" seguido de dois arquivos: entrada e saida
+<h2> Por último basta compilar os principais módulos excutando o arquivo "Make", e chamando o projeto com o comando ".\main" seguido de dois arquivos: entrada e saida </h2>
 
-Especificação
+<h3>Especificação</h3>
 Os caminhos dos arquivos de entrada e saída devem ser capturados, nesta ordem,
 através da linha de comando durante a invocação do programa. O arquivo de entrada
 contém a configuração do jogo da velha, enquanto o arquivo de saída conterá todas as
 configurações vitoriosas válidas a partir da configuração inicial.
 Deve-se considerar que a próxima jogada é realizada pelo jogador detentor da marcação ‘O’.
-1 Entrada
+<h4>1 Entrada</h4>
 O arquivo de entrada possui três linhas, cada uma com três caracteres, descrevendo
 o jogo da velha.
-Restrições
+<h3>Restrições</h3>
 Os símbolos podem ser ‘O’, indicando uma marcação do primeiro jogador, ‘X’, indicando uma marcação do segundo jogador, ou ‘’B’ indicando um espaço em branco.
-2 Saída
+<h4>2 Saída</h4>
 Deverá ser impresso no arquivo de saída todas as configurações válidas de vitória do
 jogador detentor da marcação ‘O’ a partir da configuração inicial. É permitido que as
 configurações se repitam de acordo com o número de vezes em que for possível gerá-las a
 partir da configuração inicial.
 
-# Exemplo de Uso
-<make>
+<h2># Exemplo de Uso</h2>
+<code>
+make
 <.\main entrada.txt saida.txt>
+</code>
